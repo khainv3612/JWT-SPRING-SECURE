@@ -3,9 +3,14 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  URL_API_AUTH: 'http://localhost:8080/api/auth/',
+  apiUrl: 'http://localhost:8080/',
+  TOKEN_KEY: 'auth-token',
+  USER_KEY: 'auth-user',
+  PAGEABLE_PAGE_DEFAULT : 0,
+  PAGEABLE_SIZE_DEFAULT : 10
 };
-
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
